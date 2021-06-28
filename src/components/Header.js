@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../assets/images/Jonathan-Jablonski-Resume.pdf'
 
 export const Header = () => {
     return (
@@ -10,9 +11,9 @@ export const Header = () => {
         <a href="#work">Work</a>
         <a href="#contact">Contact Me</a>
         <a
-          href="../professional-portfolio/assets/images/Jonathan M. Jablonski Resume.pdf"
-          >Resume</a
-        >
+          href={resume}
+          >Resume
+          </a>
       </nav>
     </header>
     )
