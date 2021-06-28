@@ -13,21 +13,23 @@ import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <div>
-        <Hero />
+    <Router>
+      <div className="App">
+        <Header />
+        <div>
+          <Hero />
+        </div>
+        {/* <div>
+          <About />
+        </div> */}
+        <div>
+          <PortfolioContainer />
+        </div>
+        {/* <div>
+          <Footer/>
+        </div> */}
       </div>
-      <div>
-        <About />
-      </div>
-      <div>
-        <PortfolioContainer />
-      </div>
-      <div>
-        <Footer/>
-      </div>
-    </div>
+    </Router>
   );
 }
 

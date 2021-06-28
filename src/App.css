@@ -16,7 +16,7 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   color: var(--primary);
-  background-color: var(--light);
+  background-color: var(--tertiary);
   line-height: 1.5;
 }
 
@@ -91,9 +91,6 @@ main {
 }
 
 .hero-banner {
-  background: rgb(68, 88, 120);
-  background-image: url("../src/assets/images/57382180_10156100784751516_5101619638031089664_o.jpg"),
-    linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -108,6 +105,7 @@ main {
 
 .hero-banner div {
   flex: 0 0 90%;
+
 }
 
 .hero-banner h2 {
@@ -117,7 +115,30 @@ main {
   padding: 5px 10px;
   font-size: 2.3rem;
   line-height: 1.2;
-  display: inline;
+  text-align: center;
+  display:inline-flexbox;
+}
+
+.hero-banner h3 {
+  background-color: var(--secondary);
+  color: var(--tertiary);
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 1.31rem;
+  line-height: 1.2;
+  text-align: center;
+  display:inline-flexbox;
+}
+
+.hero-banner p {
+  font-style: oblique;
+  background-color: var(--secondary);
+  color: var(--tertiary);
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 1.15rem;
+  text-align: center;
+  display:inline-flexbox;
 }
 
 .page-wrapper {
@@ -137,16 +158,16 @@ main {
 }
 
 .page-section > h2 {
-  flex: 0 0 20%;
-  text-align: right;
+  flex: 0 0 100%;
+  text-align: center;
   padding-right: 15px;
-  border-right: 4px solid var(--primary);
+  border-bottom: 4px solid var(--primary);
   font-size: 4vw;
   line-height: 1.1;
 }
 
 .page-section > div {
-  flex: 0 0 77%;
+  flex: 0 0 100%;
 }
 
 .page-section p {

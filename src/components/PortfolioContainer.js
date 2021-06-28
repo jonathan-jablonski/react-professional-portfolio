@@ -2,8 +2,7 @@ import React from 'react'
 
 export const PortfolioContainer = () => {
     return (
-<section className="page-section" id="work">
-        <h2>Work</h2>
+<section className="page-section">
         <div className="flex-container">
           <a
             href="https://github.com/jonathan-jablonski"
