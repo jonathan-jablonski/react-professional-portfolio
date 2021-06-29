@@ -19,9 +19,9 @@ function App() {
         <div>
           <Hero />
         </div>
-        {/* <div>
+        <div>
           <About />
-        </div> */}
+        </div>
         <div>
           <PortfolioContainer />
         </div>

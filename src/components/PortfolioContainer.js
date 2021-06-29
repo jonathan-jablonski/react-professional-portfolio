@@ -10,7 +10,7 @@ export const PortfolioContainer = () => {
           >
             <div>
               <h3>GitHub Repos</h3>
-              <span>HTML/CSS/JavaScript/Node</span>
+              <span>HTML/CSS/JavaScript/Mongo/Express/React/Node</span>
             </div>
           </a>
 

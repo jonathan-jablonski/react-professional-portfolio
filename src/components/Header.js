@@ -7,7 +7,6 @@ export const Header = () => {
     <header>
       <h1>Jonathan Jablonski</h1>
       <nav>
-        <a href="#about">About Me</a>
         <a href="#work">Work</a>
         <a href="#contact">Contact Me</a>
         <a
