@@ -9,7 +9,7 @@ export const PortfolioContainer = () => {
             className="flex-item git-hub"
           >
             <div>
-              <h3>GitHub Repos</h3>
+              <h3>GitHub Repos</h3><br></br>
               <span>HTML/CSS/JavaScript/Mongo/Express/React/Node</span>
             </div>
           </a>
@@ -29,7 +29,7 @@ export const PortfolioContainer = () => {
             className="flex-item got-munchies"
           >
             <div>
-              <h3>"Got Munchies?" Web App</h3>
+              <h3>"Got Munchies?" Web App</h3><br></br>
               <span>RESTful API/HTML/CSS/JavaScript</span>
             </div>
           </a>
