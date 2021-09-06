@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const About = () => {
+export const About = ( props ) => {
     return (
     <section className="page-section about">
         <h2>About Me</h2>

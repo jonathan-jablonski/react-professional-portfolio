@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Footer = () => {
     return (
-        <section class="page-section contact" id="contact">
-        <h2>Contact Me</h2>
+        <section class="page-section contact">
+        <h2 className="contact-me">Contact Me</h2>
         <div>
           <address>
             <a href="https://www.linkedin.com/in/jmjablonski/">LinkedIn</a>
